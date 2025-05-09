@@ -10,15 +10,7 @@ namespace CotL_AP_Randomizer
     {
         public override void OnInitializeMelon()
         {
-            MelonLogger.Msg("Archipelago mod loaded!");
-        }
-        
-        public override void OnUpdate()
-        {
-            if (Input.GetKeyDown(KeyCode.F5))
-            {
-                MelonLogger.Msg("Pressed F5 - Future AP hook here woot");
-            }
+            MelonLogger.Msg("A sheep has been sacrificed.");
         }
     }
 }
