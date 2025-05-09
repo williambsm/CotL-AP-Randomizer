@@ -464,6 +464,10 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Archipelago\Check.cs" />
+        <Compile Include="Archipelago\ChecksManager.cs" />
+        <Compile Include="Archipelago\Items.cs" />
+        <Compile Include="Archipelago\Locations.cs" />
         <Compile Include="Core.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
